@@ -13,7 +13,7 @@ images:
 entry:
   repositoryBasename: entry
   #tag: "latest"
-  tag: "v1-latest-dev"
+  tag: "v2-latest-dev"
   serviceType: LoadBalancer
   servicePort: 9000
   env: []
@@ -22,7 +22,7 @@ entry:
 hat:
   repositoryBasename: hat
   #tag: "latest"
-  tag: "v1-latest-dev"
+  tag: "v2-latest-dev"
   serviceType: ClusterIP
   servicePort: 9001
   env: []
@@ -31,7 +31,7 @@ hat:
 leftLeg:
   repositoryBasename: left-leg
   #tag: "latest"
-  tag: "v1-latest-dev"
+  tag: "v2-latest-dev"
   serviceType: ClusterIP
   servicePort: 9002
   env: []
@@ -40,7 +40,7 @@ leftLeg:
 leftArm:
   repositoryBasename: left-arm
   #tag: "latest"
-  tag: "v1-latest-dev"
+  tag: "v2-latest-dev"
   serviceType: ClusterIP
   servicePort: 9003
   env: []
@@ -49,7 +49,7 @@ leftArm:
 rightLeg:
   repositoryBasename: right-leg
   #tag: "latest"
-  tag: "v1-latest-dev"
+  tag: "v2-latest-dev"
   serviceType: ClusterIP
   servicePort: 9004
   env: []
@@ -58,7 +58,7 @@ rightLeg:
 rightArm:
   repositoryBasename: right-arm
   #tag: "latest"
-  tag: "v1-latest-dev"
+  tag: "v2-latest-dev"
   serviceType: ClusterIP
   servicePort: 9005
   env: []
